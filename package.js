@@ -26,8 +26,8 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use([
     'tinytest',
-    'leader-tt',
-    'jquery'
+    'jquery',
+    'test-helpers',
   ]);
   // Place test files in tests/ directory to exclude them from Meteor app
   api.addFiles('tests/leaderboard.js', 'client');
